@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="ColorFondoVentana">#CDB4DB</Color>
+    <Color x:Key="ColorFondoControl">#FFAFCC</Color>
+    <Color x:Key="ColorFondoResaltado">#FFC8DD</Color>
+    <Color x:Key="ColorTexto">#8f2d56</Color>
+    <Color x:Key="ColorTextoResaltado">#BDE0FE</Color>
+    <FontFamily x:Key="LetraGCW">Georgia</FontFamily>
+</ResourceDictionary>

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="{DynamicResource ColorFondoVentana}" />
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="{DynamicResource ColorFondoControl}" />
+    <SolidColorBrush x:Key="BackgroundAlternativeBrush" Color="{DynamicResource ColorFondoResaltado}" />
+    <SolidColorBrush x:Key="FuentePrincipalBrush" Color="{DynamicResource ColorTexto}" />
+    <SolidColorBrush x:Key="FuenteAlternativaBrush" Color="{DynamicResource ColorTextoResaltado}" />
+</ResourceDictionary>
