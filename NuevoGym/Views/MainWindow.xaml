@@ -3,8 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="750" Width="1300" Background="{DynamicResource WindowBackgroundBrush}" >
-    <Grid>
+        Title="{Binding Title}" Height="750" Width="1300" Background="Transparent"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" >
+    <Border CornerRadius="20" Background="{DynamicResource WindowBackgroundBrush}">
+        <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
@@ -49,4 +51,5 @@
         </Grid>
         
     </Grid>
+    </Border>
 </Window>
